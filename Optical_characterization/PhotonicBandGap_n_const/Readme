@@ -1,1 +1,12 @@
-Parameters of the membrane
+Periodic membrane cell that is represented as a Si3N4 square with a hole full of air inside.
+
+Parameters: Length of the unit cell a=932*10^(-9) m,
+            Radious of the hole R=326*10^(-9) m.
+            
+Periodic condition for wave number in X and Y directions (half of the first Brullouin zone):
+kx=pi/a*k; ky=pi/a*k; where k is a parameter.
+
+For making mesh symmetrical: Edge ~ Copy edge ~ Free triangular
+
+The frequency range: 0 - 3.4*10^14 Hz. 
+For the laser with wavelengthh 1064nm - frequency is 2.8*10^14 Hz
