@@ -1,1 +1,14 @@
-There are used 2 modules
+Refrective index of crystal membrane changes with frequency of the laser.
+
+There are used 2 physics: Electromagnetic Waves, Frequency Domain; Global ODEs and DAEs.
+
+Parameters and materials of the unit cell are the same as in the calculation for n_const.
+
+Dispersion formula (https://refractiveindex.info/?shelf=main&book=Si3N4&page=Philipp)
+
+(first article 1973): n^2-1=2.8939*λ^2/(λ^2-0.13967^2)
+Comsol analytical equation: n=sqrt(1+2.8939[1/m^2]*(c_const/f*10^6)^2/((c_const/f*10^6)^2*1[1/m^2]-0.13967^2))
+
+(second article 2015): n^2-1=3.0249*λ^2/(λ^2-0.1353406^2)+40314*λ^2/(λ^2-1239.842^2)
+Comsol analytical equation: n=sqrt(1+(3.0249[1/m^2]*(c_const/f*10^6)^2/((c_const/f*10^6)^2*1[1/m^2]-0.1353406^2))+((40314[1/m^2]*(c_const/f*10^6)^2)/((c_const/f*10^6)^2*1[1/m^2]-1239.842^2)))
+
