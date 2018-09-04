@@ -1,1 +1,19 @@
 The Si3N4 membrane that is suspended in 4 corners with fibers of the same material.
+
+Geometrical parameters:
+  internal size of the frame - 500*10^(-6) m;
+  length of the external square of the membrane - 120*10^(-6) m;
+  length of the internal square of the membrane - 90*10^(-6) m;
+  width of the fibers - 15*10^(-6) m;
+  thickness of the whole construction - 200*10^(-9) m
+
+Material parameters:
+  density - 2700 kg/m^3;
+  Young's modulus - 260.5*10^9 Pa;
+  Poisson's ratio - 0.27
+  
+The frame is fixed (Fixed Constraint in Solid Mechanics physics)
+
+Mesh - It is used operations 'Free Triangular' and 'Swept' for all surfaces.
+
+Eigenfrequency study
